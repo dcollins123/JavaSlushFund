@@ -10,7 +10,6 @@ public class SingletonTester {
 	public void testSingleton() {
 		
 		System.out.println("\nAbout to test the singleton...");
-		
 		// FIXME: obtain local reference to the singleton instance
 		GameService service = GameService.getInstance(); // replace null with ???
 		
